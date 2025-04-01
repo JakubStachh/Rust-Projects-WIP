@@ -45,27 +45,27 @@ git clone https://github.com/JakubStachh/Rust-Projects.git
 cd Rust-Projects
 cargo build --release
 
-##🚀 Usage
+## 🚀 Usage
 
 Run the project with:
 
 cargo run --release
 
 To run a specific program (e.g., Fibonacci Sequence):
-
+```sh
 cargo run --bin fibonacci
 
 To run all tests:
+```sh
+cargo test 
 
-cargo test
-
-##🐜 Examples
+## 🐜 Examples
 
 📌 Fibonacci Sequence
-
+```sh
 $ cargo run --bin fibonacci
 Enter the number: 10
 Fibonacci(10) = 55
 
-```sh
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
