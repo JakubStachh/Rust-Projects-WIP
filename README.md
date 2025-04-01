@@ -36,21 +36,21 @@ Make sure you have Rust installed. You can install it using [Rustup](https://rus
 𓀃 Installation
 
 Make sure you have Rust installed. You can install it using Rustup:
-
+```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+```
 Then, clone this repository and build the project:
-
+```sh
 git clone https://github.com/JakubStachh/Rust-Projects.git
 cd Rust-Projects
 cargo build --release
-
+```
 ## 🚀 Usage
 
 Run the project with:
-
+```sh
 cargo run --release
-
+```
 To run a specific program (e.g., Fibonacci Sequence):
 ```sh
 cargo run --bin fibonacci
@@ -66,8 +66,4 @@ cargo test
 $ cargo run --bin fibonacci
 Enter the number: 10
 Fibonacci(10) = 55
-```
-
-```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
