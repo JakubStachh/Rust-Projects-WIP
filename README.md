@@ -21,7 +21,7 @@ A brief description of what my Rust programs do.
 - ✅ Find the Intersection of Two Arrays
 - ✅ Find the Longest Substring Without Repeating Characters
 - ✅ Find the Missing Number in an Array
-- ✅ Implement a Binary Search <a href="https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Binary%20Search" style="text-decoration: none; color: inherit;">GitHub Link</a> | <a href="#implement-a-binary-search" style="text-decoration: none; color: inherit;">Link to Section</a>
+- ✅ [Implement a Binary Search](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Binary%20Search)
 - ✅ Implement a Simple Queue Using Two Stacks
 - ✅ Implement a Simple Stack
 - ✅ Merge Intervals
