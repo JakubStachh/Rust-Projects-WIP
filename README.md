@@ -42,7 +42,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Then, clone this repository and build the project:
 ```sh
 git clone https://github.com/JakubStachh/Rust-Projects.git
+```
+```sh
 cd Rust-Projects
+```
+```sh
 cargo build --release
 ```
 ## 🚀 Usage
