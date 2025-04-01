@@ -1,9 +1,17 @@
 # 🐕 Rust Project Name
 
-## 📌 Description
-A brief description of what your Rust project does.
 
-## 🛠 ProgramsAnagram Check
+## 📚 Table of Contents
+- [Description](#-description)
+- [Programs](#-programsanagram-check)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Examples](#-examples)
+
+## 📌 Description
+A brief description of what my Rust programs do.
+
+## 🛠 Programs
 - ✅ Breadth-First Search (BFS)
 - ✅ Check if a Binary Tree is Balanced
 - ✅ Count Characters in a String
@@ -25,15 +33,7 @@ A brief description of what your Rust project does.
 ## 📦 Installation
 Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
 
-## 📚 Table of Contents
-- [Description](#-description)
-- [Programs](#-programsanagram-check)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Examples](#-examples)
-- [Contributing](#-contributing)
-- [License](#-license)
-👖 Installation
+𓀃 Installation
 
 Make sure you have Rust installed. You can install it using Rustup:
 
@@ -41,8 +41,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Then, clone this repository and build the project:
 
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+git clone https://github.com/JakubStachh/Rust-Projects.git
+cd Rust-Projects
 cargo build --release
 
 🚀 Usage
@@ -66,8 +66,6 @@ cargo test
 $ cargo run --bin fibonacci
 Enter the number: 10
 Fibonacci(10) = 55
-
-📌 Anagram Check
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
