@@ -3,7 +3,7 @@
 
 ## 📚 Table of Contents
 - [Description](#-description)
-- [Programs](#-programsanagram-check)
+- [Programs](#-programs)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Examples](#-examples)
@@ -45,7 +45,7 @@ git clone https://github.com/JakubStachh/Rust-Projects.git
 cd Rust-Projects
 cargo build --release
 
-🚀 Usage
+##🚀 Usage
 
 Run the project with:
 
@@ -59,7 +59,7 @@ To run all tests:
 
 cargo test
 
-🐜 Examples
+##🐜 Examples
 
 📌 Fibonacci Sequence
 
