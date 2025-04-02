@@ -59,3 +59,4 @@ Is the queue empty after pop? true
 
 ### <mark>empty</mark> Method:
 - Returns <mark>true</mark> if both stacks are empty (indicating the queue is empty), otherwise returns </mark>false<mark>.
+#
