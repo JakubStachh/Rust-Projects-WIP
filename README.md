@@ -32,9 +32,9 @@ Make sure you have Rust installed. You can install it using [Rustup](https://rus
 
 ### 𓀃 The Actual Installation
 
-Make sure you have Rust installed. You can install it using Rustup:
+Make sure you have Rust installed:
 ```sh
-https://rustup.rs/
+rustc --version
 ```
 Then, clone this repository and build the project:
 ```sh
