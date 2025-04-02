@@ -30,7 +30,7 @@
 ## 📦 Installation
 Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
 
-𓀃 Installation
+### 𓀃 Installation
 
 Make sure you have Rust installed. You can install it using Rustup:
 ```sh
