@@ -9,7 +9,7 @@ This Rust program finds the missing number in a sequence of numbers <mark>from 1
  - #### It calculates the expected sum of numbers from 1 to n using the formula:
 
 $$
-\huge \text{expected sum} = \frac{n \times (n + 1)}{2}
+\large \text{expected sum} = \frac{n \times (n + 1)}{2}
 $$
 
  
