@@ -7,11 +7,15 @@ This Rust program finds the missing number in a sequence of numbers <mark>from 1
 ### The function <mark>find_missing_number(arr: Vec<i32>, n: i32) -> i32</mark>:
 
  - #### It calculates the expected sum of numbers from 1 to n using the formula:
+$$
 
+$$
 $$
 \large \text{expected sum} = \frac{n \times (n + 1)}{2}
 $$
+$$
 
+$$
  
 - Then, it computes the actual sum of the numbers in the array.
 
