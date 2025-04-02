@@ -19,7 +19,7 @@ The algorithm swaps characters within the string, recursively generating permuta
 
   - When the start **index** reaches the end of the **string**, the current permutation is added to the result.
 
-###The function uses *backtracking** by swapping characters back to their original positions after each recursive call to explore other permutations.
+### The function uses *backtracking** by swapping characters back to their original positions after each recursive call to explore other permutations.
 
 ### The main function demonstrates how to use `permute()` to generate permutations of the `string "abc"`.
 
