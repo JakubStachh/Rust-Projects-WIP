@@ -2,14 +2,10 @@
 
 
 ## 📚 Table of Contents
-- [Description](#-description)
 - [Programs](#-programs)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Examples](#-examples)
-
-## 📌 Description
-A brief description of what my Rust programs do.
 
 ## 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
