@@ -15,7 +15,8 @@ $$
  
 Then, it computes the actual sum of the numbers in the array.
 
-##### The difference between the expected sum and the actual sum gives the missing number.
+The difference between the expected sum and the actual sum gives the missing number.
+
 
 #### Main Function:
 
