@@ -4,7 +4,7 @@
 ## 🚀 Description
 This Rust program generates all permutations of a given string using backtracking. It takes a string as input and produces all possible arrangements of its characters. Each permutation is guaranteed to be unique.
 
-### The algorithm swaps characters within the string, recursively generating permutations and then backtracks to explore other possibilities.
+The algorithm swaps characters within the string, recursively generating permutations and then backtracks to explore other possibilities.
 
 ## 🔍 How It Works
 ### The function permute(s: &str) -> Vec<String>:
