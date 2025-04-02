@@ -3,7 +3,7 @@
 ## 🚀 Description
 This Rust program implements the merge sort algorithm. 
 Merge sort is a divide-and-conquer algorithm that breaks an array into smaller subarrays, sorts them, and then merges the sorted subarrays. 
-This implementation is generic and can be used with any type that implements the <mark>Ord</mark> and <mark>Copy</mark> traits.
+This implementation is generic and can be used with any type that implements the `Ord` and `Copy` traits.
 
 ## 🔍 How It Works
 ### Divide:
@@ -19,11 +19,11 @@ This implementation is generic and can be used with any type that implements the
 - The elements are copied back into the original array after merging.
 
 ## Key Points:
-- **Generics**: The <mark>merge_sort</mark> and <mark>merge</mark> functions are generic over types <mark>T</mark> that implement the <mark>Ord</mark> and <mark>Copy</mark> traits, which means you can sort any array of types that can be compared and copied.
+- **Generics**: The `merge_sort` and `merge` functions are generic over types `T` that implement the `Ord` and `Copy` traits, which means you can sort any array of types that can be compared and copied.
 
-- <mark>Ord</mark>: This trait is used to define a total order on the elements of the array, which is necessary for comparison during sorting.
+- `Ord`: This trait is used to define a total order on the elements of the array, which is necessary for comparison during sorting.
 
-- <mark>Copy</mark>: This trait ensures that elements can be copied (not moved) when merging arrays, enabling efficient sorting with minimal overhead.
+- `Copy`: This trait ensures that elements can be copied (not moved) when merging arrays, enabling efficient sorting with minimal overhead.
 
 ## 🎯 Example Output
 ```sh
@@ -31,10 +31,10 @@ Sorted Array: [1, 2, 5, 5, 6, 9]
 ```
 
 ## 📂 Explanation
-### <mark>merge_sort</mark> Function:
+### `merge_sort` Function:
 - **Recursion**:
 
-   - The array is divided into two halves recursively using the midpoint (<mark>mid</mark>).
+   - The array is divided into two halves recursively using the midpoint (`mid`).
 
 - **Base Case**:
 
@@ -42,24 +42,24 @@ Sorted Array: [1, 2, 5, 5, 6, 9]
 
 - **Merging**:
 
-    - After sorting the two halves, the <mark>merge</mark> function is called to merge them back together in sorted order.
+    - After sorting the two halves, the `merge` function is called to merge them back together in sorted order.
 
 - **Copying**:
 
-    - The merged result is copied back to the original array using <mark>arr.copy_from_slice(&result)</mark>.
+    - The merged result is copied back to the original array using `arr.copy_from_slice(&result)`.
 
-### <mark>merge</mark> Function:
+### `merge` Function:
 - **Merging Logic**:
 
-    - The two sorted subarrays (<mark>left</mark> and <mark>right</mark>) are merged by comparing the elements one by one.
+    - The two sorted subarrays (`left` and `right`) are merged by comparing the elements one by one.
 
     - The smaller element is added to the result array first.
 
     - If there are remaining elements in either subarray, they are copied to the result.
 
-### <mark>main</mark> Function:
-- A sample array <mark>[5, 2, 9, 1, 5, 6]</mark> is provided.
+### `main` Function:
+- A sample array `[5, 2, 9, 1, 5, 6]` is provided.
 
-- The <mark>merge_sort</mark> function is called to sort the array.
+- The `merge_sort` function is called to sort the array.
 
 - The sorted array is printed.
