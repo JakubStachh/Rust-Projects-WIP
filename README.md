@@ -36,35 +36,4 @@ Make sure you have Rust installed:
 ```sh
 rustc --version
 ```
-Then, clone this repository and build the project (you will need: https://git-scm.com/downloads/win):
-```sh
-git clone https://github.com/JakubStachh/Rust-Projects.git
-```
-```sh
-cd Rust-Projects
-```
-```sh
-cargo build --release
-```
-## 🚀 Usage
 
-Run the project with:
-```sh
-cargo run --release
-```
-To run a specific program (e.g., Fibonacci Sequence):
-```sh
-cargo run --bin fibonacci
-```
-To run all tests:
-```sh
-cargo test 
-```
-## 🐜 Examples
-
-📌 Fibonacci Sequence
-```sh
-$ cargo run --bin fibonacci
-Enter the number: 10
-Fibonacci(10) = 55
-```
