@@ -6,7 +6,7 @@
 - [Many Thanks](#thank-you)
   
 <br><br>
-## 🛠 Programs
+# 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
 - ✅ [Breadth-First Search (BFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Breadth-First%20Search%20(BFS))
 - ✅ [Check if a Binary Tree is Balanced](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Check%20if%20a%20Binary%20Tree%20is%20Balanced)
@@ -31,7 +31,7 @@
   <br><br>
 
   
-## 📦 La Installation
+# 📦 La Installation
 
 ### 𓀃 The Actual Installation🤌🤌
 
