@@ -5,7 +5,7 @@ The function ensures that **each unique element appears only once** while mainta
 
 ## 🔍 How It Works
 ### Key Steps:
-#### 1. Handle Empty Vector:
+####  1. Handle Empty Vector:
 
    - If the input vector is empty, return <mark>0</mark>.
 
