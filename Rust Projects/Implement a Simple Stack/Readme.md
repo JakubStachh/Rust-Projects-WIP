@@ -9,7 +9,7 @@ The stack is implemented with generics, meaning it can store elements of any typ
 
 - <mark>items</mark>: A vector that holds the stack elements.
 
-- ### <mark>Operations</mark>:
+### <mark>Operations</mark>:
 - <mark>push(item: T)</mark>: Adds an item to the top of the stack.
 
 - <mark>pop()>/mark<: Removes and returns the top item from the stack. If the stack is empty, it returns <mark>None</mark>.
@@ -27,16 +27,16 @@ Top element after pop: Some(20)
 
 ## 📂 Explanation
 ### <mark>Stack<T></mark> Struct:
-items: The vector that holds the stack's elements. It's used as the underlying container for the stack.
+- <mark>items</mark>: The vector that holds the stack's elements. It's used as the underlying container for the stack.
 
-push Method:
-Adds an item to the stack by pushing it onto the items vector.
+### <mark>push</mark> Method:
+- Adds an item to the stack by pushing it onto the <mark>items</mark> vector.
 
-pop Method:
-Removes the top item from the stack by calling pop() on the items vector. If the vector is empty, it returns None.
+### <mark>pop</mark> Method:
+- Removes the top item from the stack by calling <mark>pop()</mark> on the <mark>items</mark> vector. If the vector is empty, it returns <mark>None</mark>.
 
-peek Method:
-Returns a reference to the last element of the items vector, which is the top of the stack. If the stack is empty, it returns None.
+### <mark>peek</mark> Method:
+- Returns a reference to the last element of the <mark>items</mark> vector, which is the top of the stack. If the stack is empty, it returns <mark>None</mark>.
 
-Generics:
-The stack is generic (Stack<T>), so it can hold elements of any type T. This allows the stack to be reused for different types of data.
+### Generics:
+- The stack is generic (<mark>Stack<T></mark>), so it can hold elements of any type <mark>T</mark>. This allows the stack to be reused for different types of data.
