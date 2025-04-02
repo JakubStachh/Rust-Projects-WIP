@@ -6,7 +6,7 @@ This Rust program finds the missing number in a sequence of numbers from 1 to n.
 ## 🔍 How It Works
 ### The function <mark>find_missing_number(arr: Vec<i32>, n: i32) -> i32</mark>:
 
-#### -It calculates the expected sum of numbers from 1 to n using the formula:
+ - #### It calculates the expected sum of numbers from 1 to n using the formula:
 
 $$
 \text{expected sum} = \frac{n \times (n + 1)}{2}
