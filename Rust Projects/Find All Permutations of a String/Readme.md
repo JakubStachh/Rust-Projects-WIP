@@ -29,7 +29,7 @@ The algorithm swaps characters within the string, recursively generating permuta
 ```
 
 ## 📂 Explanation
-### permute Function:
+### `permute Function`:
 - Input: A string s for which permutations are to be generated.
 
 - Output: A vector containing all unique permutations of the string.
@@ -42,7 +42,7 @@ The algorithm swaps characters within the string, recursively generating permuta
 
     - Returns the final vector containing all the permutations.
 
- ### permute_helper Function:
+ ### `permute_helper` Function:
 - Input: A mutable vector of characters, a start index, and a mutable result vector.
 
 - Output: **Modifies** the result vector to include permutations.
@@ -55,5 +55,5 @@ The algorithm swaps characters within the string, recursively generating permuta
 
     - The algorithm backtracks by swapping characters back to their original positions.
 
- ### main Function:
+ ### `main` Function:
 - The main function calls the `permute()` function with the `string "abc"` and prints the generated permutations.
