@@ -13,7 +13,7 @@ This Rust program determines the length of the longest substring without repeati
 
 - When a character is encountered that has already been seen within the current window, the left pointer is moved to the right of the last occurrence of that character.
 
-- The maximum length of the window is tracked as the right pointer moves through the string.
+- The **maximum length** of the window is tracked as the right pointer moves through the string.
 
 ### Key Points:
 - **HashMap** stores the index of the last occurrence of each character.
