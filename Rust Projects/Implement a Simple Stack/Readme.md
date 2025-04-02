@@ -12,7 +12,7 @@ The stack is implemented with generics, meaning it can store elements of any typ
 ### <mark>Operations</mark>:
 - <mark>push(item: T)</mark>: Adds an item to the top of the stack.
 
-- <mark>pop()>/mark<: Removes and returns the top item from the stack. If the stack is empty, it returns <mark>None</mark>.
+- <mark>pop()>/mark>: Removes and returns the top item from the stack. If the stack is empty, it returns <mark>None</mark>.
 
 - <mark>peek()</mark>: Returns a reference to the top item without removing it. If the stack is empty, it returns <mark>None</mark>.
 
