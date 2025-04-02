@@ -34,3 +34,29 @@ Creates a linked list: 1 -> 2 -> 3 -> None
 
 Prints the original and reversed lists.
 
+🎯 Example Output
+sh
+Copy
+Edit
+Original List:
+1 -> 2 -> 3 -> None
+Reversed List:
+3 -> 2 -> 1 -> None
+📂 Explanation
+reverse_linked_list Function:
+Uses three pointers to reverse the list in O(n) time.
+
+current iterates through the list.
+
+prev keeps track of the reversed list.
+
+node.next.take() moves ownership of the next node.
+
+print_list Function:
+Traverses the list and prints the values.
+
+main Function:
+Creates nodes and links them together.
+
+Clones the list before reversing it to avoid ownership issues.
+
