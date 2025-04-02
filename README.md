@@ -56,6 +56,15 @@
   ```sh
   .\AnagramCheck.exe
   ```
+
+  ```sh
+
+
+
+
+
+
+  ```
   
 # And Voilà! You've done it! You actually checked my code! 
 ## Thank You. All I'm hoping for is... that I hadn't make any mistakes. 
