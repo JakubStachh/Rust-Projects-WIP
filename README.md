@@ -32,11 +32,11 @@ Make sure you have Rust installed. You can install it using [Rustup](https://rus
 
 ### 𓀃 The Actual Installation
 
-Make sure you have Rust installed:
+####Make sure you have Rust installed:
 ```sh
 rustc --version
 ```
-You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
+####You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
 
-But if you're using e.g. Windows Powershell you should:
+####But if you're using e.g. Windows Powershell you should:
 -
