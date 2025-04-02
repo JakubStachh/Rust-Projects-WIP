@@ -19,13 +19,13 @@
 - ✅ [Find the Longest Substring Without Repeating Characters](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Longest%20Substring%20Without%20Repeating%20Characters)
 - ✅ [Find the Missing Number in an Array](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Missing%20Number%20in%20an%20Array)
 - ✅ [Implement a Binary Search](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Binary%20Search)
-- ✅ Implement a Simple Queue Using Two Stacks
-- ✅ Implement a Simple Stack
-- ✅ Merge Intervals
-- ✅ Merge Sort
-- ✅ Palindrome Check
-- ✅ Remove Duplicates from a Sorted Array
-- ✅ Reverse a Linked List
+- ✅ [Implement a Simple Queue Using Two Stacks](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Simple%20Queue%20Using%20Two%20Stacks)
+- ✅ [Implement a Simple Stack](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Simple%20Stack)
+- ✅ [Merge Intervals](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Merge%20Intervals)
+- ✅ [Merge Sort](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Merge%20Sort)
+- ✅ [Palindrome Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Palindrome%20Check)
+- ✅ [Remove Duplicates from a Sorted Array](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Remove%20Duplicates%20from%20a%20Sorted%20Array)
+- ✅ [Reverse a Linked List](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Reverse%20a%20Linked%20List)
 
 ## 📦 Installation
 Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
