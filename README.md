@@ -1,4 +1,4 @@
-# 🐕 Rust Project Name
+# 🐕 Rust Project
 
 
 ## 📚 Table of Contents
@@ -13,7 +13,7 @@ A brief description of what my Rust programs do.
 
 ## 🛠 Programs
 - ✅ [Breadth-First Search (BFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
-- ✅ Check if a Binary Tree is Balanced
+- ✅ [Check if a Binary Tree is Balanced](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Breadth-First%20Search%20(BFS))
 - ✅ Count Characters in a String
 - ✅ Depth-First Search (DFS)
 - ✅ Fibonacci Sequence
