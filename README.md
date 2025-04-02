@@ -36,7 +36,7 @@ Make sure you have Rust installed:
 ```sh
 rustc --version
 ```
-You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online ones to run the code
+You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
 
 But if you're using e.g. Windows Powershell you should:
 -
