@@ -32,11 +32,11 @@ The missing number is: 3
 ## 📂 Explanation
 ### <mark>find_missing_number Function</mark>:
 - **Expected Sum**: The sum of numbers from 1 to n is computed using the formula:
-  
+# 
 $$
-\text{expected sum} = \frac{n \times (n + 1)}{2}
+\large \text{expected sum} = \frac{n \times (n + 1)}{2}
 $$
-
+#
 - **Actual Sum**: The sum of the numbers in the given array arr is calculated.
 
 - Missing Number: The difference between the expected sum and actual sum gives the missing number.
