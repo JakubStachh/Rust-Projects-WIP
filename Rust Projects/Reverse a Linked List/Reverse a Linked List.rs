@@ -1,10 +1,10 @@
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct Node {
     value: i32,
     next: Option<Box<Node>>,
 }
 
-fn reverse_linked_list(mut head: Option<Box<Node>>) -> Option<Box<Node>> {
+fn reverse_linked_list(head: Option<Box<Node>>) -> Option<Box<Node>> { // Removed `mut` from `head`
     let mut prev = None;
     let mut current = head;
 
