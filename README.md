@@ -34,7 +34,7 @@ Make sure you have Rust installed. You can install it using [Rustup](https://rus
 
 Make sure you have Rust installed. You can install it using Rustup:
 ```sh
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+https://rustup.rs/
 ```
 Then, clone this repository and build the project:
 ```sh
