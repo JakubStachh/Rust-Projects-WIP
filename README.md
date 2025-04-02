@@ -57,8 +57,10 @@
   .\AnagramCheck.exe
   ```
   
-And Voilà! You've done it! You actually check my code. Thank You. All I'm hoping for is: that I hadn't make any mistakes. If there are any: I'm sorry, and I will update it when the right time comes. 
-But for now... let's enjoy this peacful while with - beloved by many - EL SNOOPY!!!
+# And Voilà! You've done it! You actually checked my code! 
+## Thank You. All I'm hoping for is... that I hadn't make any mistakes. 
+### If there are any: I'm sorry, and I will update it when the right time comes. 
+#### But for now... let's enjoy this peacful while with - beloved by many - EL SNOOPY!!!
 
 
 ```txt
