@@ -4,7 +4,7 @@
 This Rust program checks whether two given strings are anagrams of each other. Two words are considered anagrams if they contain the same characters in the same frequencies, but in any order.
 
 ## 🔍 How It Works
-### The function ==are_anagrams(s1: &str, s2: &str) -> bool==:
+### The function <mark>are_anagrams(s1: &str, s2: &str) -> bool</mark>:
 
 - Uses two HashMaps to store character counts for both input strings.
 
