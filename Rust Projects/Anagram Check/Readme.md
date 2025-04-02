@@ -6,7 +6,7 @@ This Rust program checks whether two given strings are anagrams of each other. T
 ## 🔍 How It Works
 ### The function <mark>are_anagrams(s1: &str, s2: &str) -> bool</mark>:
 
-- Uses two HashMaps to store character counts for both input strings.
+- Uses two **HashMaps** to store character counts for both input strings.
 
 - Iterates over each character in both strings, updating their respective frequency maps.
 
@@ -16,7 +16,7 @@ This Rust program checks whether two given strings are anagrams of each other. T
 
 - If the maps are not equal, the function returns false.
 
-### The main function demonstrates how to use the are_anagrams() function with two test cases: one where the words are anagrams and one where they are not.
+### The main function demonstrates how to use the <mark>are_anagrams()</mark> function with two test cases: one where the words are anagrams and one where they are not.
 
 ## 🎯 Example Output
 ```sh
@@ -25,15 +25,15 @@ false
 ```
 
 ## 📂 Explanation
-### are_anagrams Function:
+### <mark>are_anagrams Function</mark>:
 - This function takes two strings as inputs and creates two HashMaps to count the frequency of each character in the strings.
 
 - It iterates over the characters of both strings and updates their respective maps.
 
 - Finally, it checks whether the two maps are equal.
 
-### main Function:
-- The main function tests the are_anagrams() function with the following test cases:
+### <mark>main Function</mark>:
+- The <mark>main Function</mark> tests the <mark>are_anagrams()</mark> function with the following test cases:
 
 - **"listen"** and **"silent"** (anagrams).
 
