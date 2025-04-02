@@ -16,23 +16,23 @@ The linked list is built usin `Option<Box<Node>>`, where each node contains a va
 
     - Uses three pointers:
 
-      - prev → Keeps track of the reversed list.
+      - `prev` → Keeps track of the reversed list.
 
-      - current → Iterates through the original list.
+      - `current` → Iterates through the original list.
 
-      - next → Temporarily stores the next node.
+      - `next` → Temporarily stores the next node.
 
-    - Iterates through the list, reversing the next pointers.
+    - Iterates through the list, reversing the `next` pointers.
 
-Print Function (print_list):
+3. **Print Function (`print_list`)**:
 
-Iterates through the linked list and prints its values.
+    - Iterates through the linked list and prints its values.
 
-Main Function:
+4. **Main Function**:
 
-Creates a linked list: 1 -> 2 -> 3 -> None
+    - Creates a linked list: `1 -> 2 -> 3 -> None`
 
-Prints the original and reversed lists.
+    - Prints the original and reversed lists.
 
 🎯 Example Output
 sh
