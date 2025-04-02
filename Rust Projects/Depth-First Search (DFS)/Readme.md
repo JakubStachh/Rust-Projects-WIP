@@ -8,17 +8,17 @@ This Rust program performs a Depth-First Search (DFS) traversal on an undirected
 
 **The function dfs(graph: &HashMap<i32, Vec<i32>>, node: i32, visited: &mut HashMap<i32, bool>):**
 
-Prints the current node.
+- Prints the current node.
 
-Marks the node as visited in a HashMap.
+- Marks the node as visited in a HashMap.
 
-Recursively visits all unvisited neighbors.
+- Recursively visits all unvisited neighbors.
 
 **The main function:**
 
-Initializes a graph using HashMap<i32, Vec<i32>>.
+- Initializes a graph using HashMap<i32, Vec<i32>>.
 
-Calls dfs() to start traversal from node 0.
+- Calls dfs() to start traversal from node 0.
 
 ## 🎯 Example Output
 ```sh
@@ -30,10 +30,10 @@ DFS Traversal:
 2
 5
 ```
-## 📂 Explanation
+## 📂 Explanation:
 
-Graph Representation → Uses a HashMap where each node maps to its neighbors.
+- Graph Representation → Uses a HashMap where each node maps to its neighbors.
 
-Recursive DFS → Visits all connected nodes before backtracking.
+- Recursive DFS → Visits all connected nodes before backtracking.
 
-Visited Nodes Tracking → Prevents re-visiting nodes using a HashMap.
+- Visited Nodes Tracking → Prevents re-visiting nodes using a HashMap.
