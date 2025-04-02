@@ -4,9 +4,9 @@
 This Rust program implements the binary search algorithm to search for a specific element in a sorted array. Binary search efficiently finds the target element by repeatedly dividing the search range in half.
 
 ## 🔍 How It Works
-### The function <mark>binary_search(arr: &[i32], target: i32) -> Option<usize></mark>:
+### The function `binary_search(arr: &[i32], target: i32) -> Option<usize>`:
 
-- **Initial Setup**: The search range is defined by two pointers: <mark>left</mark> (starting at index 0) and <mark>right</mark> (starting at the last index of the array).
+- **Initial Setup**: The search range is defined by two pointers: `left` (starting at index 0) and `right` (starting at the last index of the array).
 
 - #### Loop: The algorithm checks the middle element of the range:
 
@@ -18,13 +18,13 @@ This Rust program implements the binary search algorithm to search for a specifi
 
 - This process repeats until the target is found or the range is exhausted.
 
-- **Return Value**: The function returns <mark>Some(index)</mark> if the element is found, and <mark>None</mark> if it's not found.
+- **Return Value**: The function returns `Some(index)` if the element is found, and `None` if it's not found.
 
 ### Main Function:
 
-- Defines a sorted <mark>array arr</mark> and calls the <mark>binary_search</mark> function to check if the target element (5) is present.
+- Defines a sorted `array arr` and calls the `binary_search` function to check if the target element (5) is present.
 
-- The result is printed using a match expression to handle the <mark>Option</mark> returned by <mark>binary_search</mark>.
+- The result is printed using a match expression to handle the `Option` returned by `binary_search`.
 
 ## 🎯 Example Output
 ```sh
@@ -32,11 +32,11 @@ Element found at index: 4
 ```
 
 ## 📂 Explanation
-### <mark>binary_search Function</mark>:
+### `binary_search Function`:
 
-- **Initialization**: The search range is defined by <mark>left</mark> and <mark>right</mark> pointers, which initially point to the first and last elements of the array, respectively.
+- **Initialization**: The search range is defined by `left` and `right` pointers, which initially point to the first and last elements of the array, respectively.
 
-- #### Loop: The search continues as long as <mark>left <= right</mark>. The middle element <mark>arr[mid]</mark> is checked:
+- #### Loop: The search continues as long as `left <= right`. The middle element `arr[mid]` is checked:
        
    - If it's equal to the target, the index is returned.
 
@@ -44,9 +44,9 @@ Element found at index: 4
 
    - If it's greater than the target, the search continues in the left half.
 
-- **Return**: If the target is found, the index is returned as <mark>Some(index)</mark>; otherwise, <mark>None</mark> is returned.
+- **Return**: If the target is found, the index is returned as `Some(index)`; otherwise, `None` is returned.
 
 ### Main Function:
-- Defines a <mark>sorted array arr</mark> and searches for the element <mark>5</mark>.
+- Defines a `sorted array arr` and searches for the element `5`.
 
-- The <mark>binary_search</mark> function is called, and the result is printed based on whether the element was found or not.
+- The `binary_search` function is called, and the result is printed based on whether the element was found or not.
