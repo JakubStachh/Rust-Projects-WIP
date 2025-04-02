@@ -1,4 +1,6 @@
-fn merge_sort<T: Ord>(arr: &mut [T]) {
+use std::cmp::Ord;
+
+fn merge_sort<T: Ord + Copy>(arr: &mut [T]) {
     let len = arr.len();
     if len < 2 {
         return;
@@ -7,34 +9,35 @@ fn merge_sort<T: Ord>(arr: &mut [T]) {
     let mid = len / 2;
     merge_sort(&mut arr[0..mid]);
     merge_sort(&mut arr[mid..]);
-    
+
+    // Create a result vector to store merged values
     let mut result = arr.to_vec();
     merge(&arr[0..mid], &arr[mid..], &mut result);
-    arr.copy_from_slice(&result);
+    arr.copy_from_slice(&result); // This works now because `T` implements `Copy`
 }
 
-fn merge<T: Ord>(left: &[T], right: &[T], result: &mut [T]) {
+fn merge<T: Ord + Copy>(left: &[T], right: &[T], result: &mut [T]) {
     let (mut i, mut j, mut k) = (0, 0, 0);
 
     while i < left.len() && j < right.len() {
         if left[i] <= right[j] {
-            result[k] = left[i].clone();
+            result[k] = left[i]; // Directly copy the value because `T` implements `Copy`
             i += 1;
         } else {
-            result[k] = right[j].clone();
+            result[k] = right[j];
             j += 1;
         }
         k += 1;
     }
 
     while i < left.len() {
-        result[k] = left[i].clone();
+        result[k] = left[i];
         i += 1;
         k += 1;
     }
 
     while j < right.len() {
-        result[k] = right[j].clone();
+        result[k] = right[j];
         j += 1;
         k += 1;
     }
