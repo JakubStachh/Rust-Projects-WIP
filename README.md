@@ -14,7 +14,7 @@ A brief description of what my Rust programs do.
 ## 🛠 Programs
 - ✅ [Breadth-First Search (BFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
 - ✅ [Check if a Binary Tree is Balanced](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Breadth-First%20Search%20(BFS))
-- ✅ Count Characters in a String
+- ✅ [Count Characters in a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Count%20Characters%20in%20a%20String)
 - ✅ Depth-First Search (DFS)
 - ✅ Fibonacci Sequence
 - ✅ Find All Permutations of a String
