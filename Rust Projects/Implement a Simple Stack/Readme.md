@@ -7,26 +7,26 @@ The stack is implemented with generics, meaning it can store elements of any typ
 ## 🔍 How It Works
 ### The <mark>Stack<T></mark> struct:
 
-items: A vector that holds the stack elements.
+- <mark>items</mark>: A vector that holds the stack elements.
 
-Operations:
-push(item: T): Adds an item to the top of the stack.
+- ### <mark>Operations</mark>:
+- <mark>push(item: T)</mark>: Adds an item to the top of the stack.
 
-pop(): Removes and returns the top item from the stack. If the stack is empty, it returns None.
+- <mark>pop()>/mark<: Removes and returns the top item from the stack. If the stack is empty, it returns <mark>None</mark>.
 
-peek(): Returns a reference to the top item without removing it. If the stack is empty, it returns None.
+- <mark>peek()</mark>: Returns a reference to the top item without removing it. If the stack is empty, it returns <mark>None</mark>.
 
-The Stack is implemented using generics, which allows it to work with any type.
+#### The <mark>Stack</mark> is implemented using generics, which allows it to work with any type.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 Top element: Some(30)
 Popped element: Some(30)
 Top element after pop: Some(20)
-📂 Explanation
-Stack<T> Struct:
+```
+
+## 📂 Explanation
+### <mark>Stack<T></mark> Struct:
 items: The vector that holds the stack's elements. It's used as the underlying container for the stack.
 
 push Method:
