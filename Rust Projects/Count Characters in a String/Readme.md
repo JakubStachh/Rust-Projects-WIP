@@ -1,10 +1,10 @@
 
-#📌 Character Frequency Counter in Rust
+# 📌 Character Frequency Counter in Rust
 
-##🚀 Description
+## 🚀 Description
 This Rust program counts how many times each character appears in a given string using a HashMap.
 
-###🔍 How It Works
+### 🔍 How It Works
 **The function count_characters(s: &str) -> HashMap<char, i32>:**
 
 Iterates over each character in the string.
