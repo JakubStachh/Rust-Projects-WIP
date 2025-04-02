@@ -17,7 +17,7 @@
 - ✅ [Find All Permutations of a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20All%20Permutations%20of%20a%20String)
 - ✅ [Find the Intersection of Two Arrays](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Intersection%20of%20Two%20Arrays)
 - ✅ [Find the Longest Substring Without Repeating Characters](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Longest%20Substring%20Without%20Repeating%20Characters)
-- ✅ Find the Missing Number in an Array
+- ✅ [Find the Missing Number in an Array](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Missing%20Number%20in%20an%20Array)
 - ✅ [Implement a Binary Search](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Binary%20Search)
 - ✅ Implement a Simple Queue Using Two Stacks
 - ✅ Implement a Simple Stack
