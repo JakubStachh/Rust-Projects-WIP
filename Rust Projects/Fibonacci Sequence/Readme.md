@@ -34,11 +34,11 @@ Fibonacci of 10: 55
 
 - #### Logic:
 
- -- Initializes a vector fib with the base case values fib[0] = 0 and fib[1] = 1.
+   - Initializes a vector fib with the base case values fib[0] = 0 and fib[1] = 1.
 
- -- Iterates from index 2 to n, calculating Fibonacci numbers using the recurrence relation.
+   - Iterates from index 2 to n, calculating Fibonacci numbers using the recurrence relation.
 
- - - Returns the Fibonacci number at position n.
+   - Returns the Fibonacci number at position n.
 
 ### main Function:
 - The main function calls the fibonacci() function to calculate the Fibonacci number for n = 10 and prints the result.
