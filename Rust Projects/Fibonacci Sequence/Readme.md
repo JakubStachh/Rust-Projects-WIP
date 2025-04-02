@@ -14,7 +14,8 @@ The program efficiently computes the Fibonacci number by storing intermediate re
 
 - The first two numbers in the Fibonacci sequence are set as 0 and 1 respectively.
 
-- A loop is then used to fill the vector with **Fibonacci numbers** by iterating from `2` to n and using the recurrence relation `fib[i] = fib[i - 1] + fib[i - 2]`.
+- A loop is then used to fill the vector with **Fibonacci numbers** by
+  iterating from `2` to n and using the recurrence relation `fib[i] = fib[i - 1] + fib[i - 2]`.
 
 - The function returns the Fibonacci number at position `n`.
 
