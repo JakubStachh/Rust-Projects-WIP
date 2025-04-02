@@ -3,8 +3,8 @@
 
 ## 📚 Table of Contents
 - [Programs](#-programs)
-- [Installation](#-installation)
-- [Usage](#-usage)
+- [Installation](#la-installation)
+- [Usage](#usage)
 - [Many Thanks](#thank-you)
 
 ## 🛠 Programs
