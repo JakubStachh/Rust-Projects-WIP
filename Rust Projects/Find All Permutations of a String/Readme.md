@@ -56,4 +56,4 @@ The algorithm swaps characters within the string, recursively generating permuta
     - The algorithm backtracks by swapping characters back to their original positions.
 
  ### `main` Function:
-- The main function calls the `permute()` function with the `string "abc"` and prints the generated permutations.
+- The `main` function calls the `permute()` function with the `string "abc"` and prints the generated permutations.
