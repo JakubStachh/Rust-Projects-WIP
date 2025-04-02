@@ -26,16 +26,16 @@ false
 ```
 
 ## 📂 Explanation
-is_palindrome Function:
-Converts the input string into a vector of characters.
+### <mark>is_palindrome</mark> Function:
+- Converts the input string into a vector of characters.
 
-Iterates through the first half of the string and compares each character with its corresponding character from the end.
+- Iterates through the first half of the string and compares each character with its corresponding character from the end.
 
-If any mismatch is found, the function returns false; otherwise, it returns true.
+- If any mismatch is found, the function returns <mark>false</mark>; otherwise, it returns <mark>true</mark>.
 
-main Function:
-Calls is_palindrome with "racecar" (should return true).
+### <mark>main</mark> Function:
+- Calls <mark>is_palindrome</mark> with "<mark>racecar</mark>" (should return <mark>true</mark>).
 
-Calls is_palindrome with "hello" (should return false).
+- Calls <mark>is_palindrome</mark> with "<mark>hello</mark>" (should return <mark>false</mark>).
 
-Prints the results.
+- Prints the results.
