@@ -31,24 +31,25 @@
 
 ### 𓀃 The Actual Installation
 
-#### Make sure you have Rust installed:
-```sh
-rustc --version
-```
 #### You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
 
 #### But if you're using e.g. Windows Powershell you should:
+
 - Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
 - Download the code
 - Unpack the zip file
 - Find the `Rust-Projects-main\Rust Projects`
 - Open the folder of the program You want to try out `Rust-Projects-main\Rust Projects\Anagram Check`
 - run:
+  
   ```sh
   rustc "AnagramCheck.rs"
   ```
+  
 - and then run:
+  
   ```sh
   .\AnagramCheck.exe
   ```
+  
 - & Voilà!
