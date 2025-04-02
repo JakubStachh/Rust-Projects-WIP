@@ -2,7 +2,7 @@
 
 ## 🚀 Description
 This Rust program **reverses a singly linked list** using an iterative approach. 
-The linked list is built using \text{expected sum}, where each node contains a value and a reference to the next node.
+The linked list is built using \text{<mark>Option<Box<Node>></mark>}, where each node contains a value and a reference to the next node.
 
 🔍 How It Works
 Key Steps:
