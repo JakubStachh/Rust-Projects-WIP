@@ -1,10 +1,11 @@
-📌 Palindrome Checker in Rust
-🚀 Description
-This Rust program checks whether a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forward and backward (e.g., "racecar" is a palindrome, while "hello" is not).
+# 📌 Palindrome Checker in Rust
+## 🚀 Description
+This Rust program checks whether a given string is a **palindrome**. 
+A palindrome is a word, phrase, or sequence that reads the same forward and backward (e.g., "<mark>racecar</mark>" is a palindrome, while "<mark>hello</mark>" is not).
 
-🔍 How It Works
-Key Steps:
-Convert the String to a Character Vector (Vec<char>):
+## 🔍 How It Works
+### Key Steps:
+- #### Convert the String to a Character Vector (<mark>Vec<char></mark>):
 
 The input string is converted into a vector of characters for easy index-based access.
 
