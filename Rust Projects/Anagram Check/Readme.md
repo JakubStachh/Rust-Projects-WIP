@@ -1,13 +1,20 @@
-#README
 
-##Anagram Checker in Rust
-This Rust program determines whether two given strings are anagrams of each other. Two words are considered anagrams if they contain the same characters in the same frequencies, but in any order.
+# 🏹 Binary Search in Rust
 
-###How It Works
-The function are_anagrams(s1: &str, s2: &str) -> bool:
+## 📌 Description
 
-Uses a HashMap to count the occurrences of each character in both input strings.
+This project implements the Binary Search Algorithm in Rust. Binary Search is an efficient searching algorithm that finds the position of a target value in a sorted array by repeatedly dividing the search interval in half.
 
-Compares the frequency maps to determine if the words are anagrams.
+### 🚀 How It Works
 
-The main function tests this logic with example words.
+Start with the left (left = 0) and right (right = arr.len() - 1) pointers.
+
+Find the middle index: mid = (left + right) / 2.
+
+If the middle element is equal to the target, return its index.
+
+If the middle element is smaller than the target, search the right half.
+
+If the middle element is larger than the target, search the left half.
+
+Repeat until the element is found or left > right.
