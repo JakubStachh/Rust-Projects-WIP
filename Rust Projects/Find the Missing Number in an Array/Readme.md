@@ -4,7 +4,7 @@
 This Rust program finds the missing number in a sequence of numbers from 1 to n. The array arr contains numbers from 1 to n, but one number is missing. The function calculates the missing number by leveraging the arithmetic sum formula.
 
 ## 🔍 How It Works
-The function find_missing_number(arr: Vec<i32>, n: i32) -> i32:
+### The function <mark>find_missing_number(arr: Vec<i32>, n: i32) -> i32</mark>:
 
 #### It calculates the expected sum of numbers from 1 to n using the formula:
 
