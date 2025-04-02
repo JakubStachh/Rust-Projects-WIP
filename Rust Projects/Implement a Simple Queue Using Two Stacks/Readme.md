@@ -42,7 +42,7 @@ Is the queue empty after pop? true
 ### <mark>MyQueue</mark> Struct:
 - <mark>stack_in</mark>: A vector that serves as the "input" stack where new elements are pushed.
 
-- <mark>stack_out</mark>: A vector that serves as the "output" stack where elements are popped. If <mark>stack_out<mark> is empty, elements are moved from <mark>stack_in</mark> to <mark>stack_out</mark>.
+- <mark>stack_out</mark>: A vector that serves as the "output" stack where elements are popped. If <mark>stack_out</mark> is empty, elements are moved from <mark>stack_in</mark> to <mark>stack_out</mark>.
 
 ### <mark>push</mark> Method:
 - Adds an element to <mark>stack_in</mark>, simulating the enqueue operation of a queue.
