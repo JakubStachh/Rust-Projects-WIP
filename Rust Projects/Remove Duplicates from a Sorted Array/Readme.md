@@ -23,25 +23,25 @@ The function ensures that **each unique element appears only once** while mainta
 
    - The function returns <mark>unique_idx + 1</mark>, which represents the number of unique elements.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 Array after duplicates removed: [1, 2, 3, 4]
-📂 Explanation
-remove_duplicates Function:
-Uses two pointers:
+```
 
-unique_idx to track unique elements.
+## 📂 Explanation
+### <mark>remove_duplicates</mark> Function:
+#### - Uses **two pointers**:
 
-i to iterate through the vector.
+   - <mark>unique_idx</mark> to track unique elements.
 
-If the current element is different from the last unique element, it's placed at unique_idx + 1.
+   - <mark>i</mark> to iterate through the vector.
 
-The function returns the new length (unique_idx + 1).
+- If the current element is different from the last unique element, it's placed at <mark>unique_idx + 1</mark>.
 
-main Function:
-Initializes a vector with duplicates.
+- The function returns the new length <mark>(unique_idx + 1)</mark>.
+
+### <mark>main</mark> Function:
+#### - Initializes a vector with duplicates.
 
 Calls remove_duplicates() to modify the vector in place.
 
