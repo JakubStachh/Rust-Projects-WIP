@@ -30,7 +30,7 @@ DFS Traversal:
 2
 5
 ```
-## 📂 Explanation:
+## 📂 Explanation
 
 - Graph Representation → Uses a HashMap where each node maps to its neighbors.
 
