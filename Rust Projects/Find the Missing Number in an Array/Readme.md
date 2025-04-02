@@ -15,7 +15,7 @@ $$
  
 Then, it computes the actual sum of the numbers in the array.
 
-The difference between the expected sum and the actual sum gives the missing number.
+#### The difference between the expected sum and the actual sum gives the missing number.
 
 ### Main Function:
 
@@ -31,18 +31,9 @@ The missing number is: 3
 ## 📂 Explanation
 ### <mark>find_missing_number Function</mark>:
 - **Expected Sum**: The sum of numbers from 1 to n is computed using the formula:  
-𝑛
-×
-(
-𝑛
-+
-1
-)
-2
-2
-n×(n+1)
-​
- .
+$$
+\text{expected\_sum} = \frac{n \times (n + 1)}{2}
+$$
 
 - **Actual Sum**: The sum of the numbers in the given array arr is calculated.
 
