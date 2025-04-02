@@ -5,7 +5,7 @@
 - [Programs](#-programs)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Many Thanks](#-thank-you-!)
+- [Many Thanks](#thank-you-!)
 
 ## 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
