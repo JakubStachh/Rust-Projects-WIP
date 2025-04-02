@@ -28,6 +28,10 @@
 
   [GET ME BACK](#-table-of-contents)
 #
+
+  <br><br>
+  <br><br>
+  
 ## 📦 La Installation
 
 ### 𓀃 The Actual Installation🤌🤌
