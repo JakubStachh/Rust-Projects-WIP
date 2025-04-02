@@ -56,6 +56,7 @@
   ```sh
   .\AnagramCheck.exe
   ```
+  <br><br>
 
 ```sh
 And Voilà! You've done it! You actually checked my code! 
