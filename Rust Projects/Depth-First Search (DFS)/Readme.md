@@ -19,3 +19,21 @@ Recursively visits all unvisited neighbors.
 Initializes a graph using HashMap<i32, Vec<i32>>.
 
 Calls dfs() to start traversal from node 0.
+
+## 🎯 Example Output
+```sh
+DFS Traversal:
+0
+1
+3
+4
+2
+5
+```
+## 📂 Explanation
+
+Graph Representation → Uses a HashMap where each node maps to its neighbors.
+
+Recursive DFS → Visits all connected nodes before backtracking.
+
+Visited Nodes Tracking → Prevents re-visiting nodes using a HashMap.
