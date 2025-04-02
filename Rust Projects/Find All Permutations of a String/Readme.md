@@ -13,13 +13,13 @@ The algorithm swaps characters within the string, recursively generating permuta
 
 - It converts the string into a vector of characters and passes it to a helper function (`permute_helper`), which recursively generates all permutations.
 
-- The function `permute_helper`(`s: &mut Vec<char>`, `start: usize, result: &mut Vec<String>`):
+### The function `permute_helper`(`s: &mut Vec<char>`, `start: usize, result: &mut Vec<String>`):
 
-- Recursively generates permutations by swapping characters in the **string**.
+  - Recursively generates permutations by swapping characters in the **string**.
 
-- When the start **index** reaches the end of the **string**, the current permutation is added to the result.
+  - When the start **index** reaches the end of the **string**, the current permutation is added to the result.
 
-- The function uses *backtracking** by swapping characters back to their original positions after each recursive call to explore other permutations.
+###The function uses *backtracking** by swapping characters back to their original positions after each recursive call to explore other permutations.
 
 ### The main function demonstrates how to use `permute()` to generate permutations of the `string "abc"`.
 
