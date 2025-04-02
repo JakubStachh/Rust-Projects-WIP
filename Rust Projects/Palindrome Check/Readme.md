@@ -5,27 +5,27 @@ A palindrome is a word, phrase, or sequence that reads the same forward and back
 
 ## 🔍 How It Works
 ### Key Steps:
-#### Convert the String to a Character Vector (<mark>Vec<char></mark>):
+#### 1. Convert the String to a Character Vector (<mark>Vec<char></mark>):
 
    - The input string is converted into a vector of characters for easy index-based access.
 
-#### Compare Characters:
+#### 2. Compare Characters:
 
    - The function iterates from the start of the string to the midpoint, comparing characters at symmetric positions.
 
-#### Return Result:
+#### 3. Return Result:
 
-If a mismatch is found, it returns false.
+   - If a mismatch is found, it returns <mark>false</mark>.
 
-If all character pairs match, the function returns true, confirming a palindrome.
+   - If all character pairs match, the function returns <mark>true</mark>, confirming a palindrome.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 true
 false
-📂 Explanation
+```
+
+## 📂 Explanation
 is_palindrome Function:
 Converts the input string into a vector of characters.
 
