@@ -42,7 +42,7 @@ Reversed List:
 3 -> 2 -> 1 -> None
 ```
 ## 📂 Explanation
-### reverse_linked_list Function:
+### `reverse_linked_list` Function:
 Uses three pointers to reverse the list in O(n) time.
 
 current iterates through the list.
