@@ -28,7 +28,7 @@
 
 ## 📦 La Installation
 
-### 𓀃 The Actual Installation
+### 𓀃 The Actual Installation🤌🤌
 
 #### You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
 
