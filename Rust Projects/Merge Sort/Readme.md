@@ -3,52 +3,52 @@
 ## 🚀 Description
 This Rust program implements the merge sort algorithm. 
 Merge sort is a divide-and-conquer algorithm that breaks an array into smaller subarrays, sorts them, and then merges the sorted subarrays. 
-This implementation is generic and can be used with any type that implements the Ord and Copy traits.
+This implementation is generic and can be used with any type that implements the <mark>Ord</mark> and <mark>Copy</mark> traits.
 
 ## 🔍 How It Works
-Divide:
+### Divide:
 
-The array is recursively divided into two halves until each subarray contains one or zero elements (base case).
+- The array is recursively divided into two halves until each subarray contains one or zero elements (base case).
 
-Merge:
+### Merge:
 
-Two sorted halves are merged into a sorted array by comparing the elements one by one.
+- Two sorted halves are merged into a sorted array by comparing the elements one by one.
 
-Copy:
+### Copy:
 
-The elements are copied back into the original array after merging.
+- The elements are copied back into the original array after merging.
 
-Key Points:
-Generics: The merge_sort and merge functions are generic over types T that implement the Ord and Copy traits, which means you can sort any array of types that can be compared and copied.
+## Key Points:
+- **Generics**: The <mark>merge_sort</mark> and <mark>merge</mark> functions are generic over types <mark>T</mark> that implement the <mark>Ord</mark> and <mark>Copy</mark> traits, which means you can sort any array of types that can be compared and copied.
 
-Ord: This trait is used to define a total order on the elements of the array, which is necessary for comparison during sorting.
+- <mark>Ord</mark>: This trait is used to define a total order on the elements of the array, which is necessary for comparison during sorting.
 
-Copy: This trait ensures that elements can be copied (not moved) when merging arrays, enabling efficient sorting with minimal overhead.
+- <mark>Copy</mark>: This trait ensures that elements can be copied (not moved) when merging arrays, enabling efficient sorting with minimal overhead.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 Sorted Array: [1, 2, 5, 5, 6, 9]
-📂 Explanation
-merge_sort Function:
-Recursion:
+```
 
-The array is divided into two halves recursively using the midpoint (mid).
+## 📂 Explanation
+### <mark>merge_sort</mark> Function:
+- **Recursion**:
 
-Base Case:
+   - The array is divided into two halves recursively using the midpoint (<mark>mid</mark>).
 
-If the array has fewer than two elements, it’s already sorted, so the function returns immediately.
+- **Base Case**:
 
-Merging:
+   - If the array has fewer than two elements, it’s already sorted, so the function returns immediately.
 
-After sorting the two halves, the merge function is called to merge them back together in sorted order.
+- **Merging**:
 
-Copying:
+    - After sorting the two halves, the <mark>merge</mark> function is called to merge them back together in sorted order.
 
-The merged result is copied back to the original array using arr.copy_from_slice(&result).
+- **Copying**:
 
-merge Function:
+    - The merged result is copied back to the original array using <mark>arr.copy_from_slice(&result)</mark>.
+
+### <mark>merge</mark> Function:
 Merging Logic:
 
 The two sorted subarrays (left and right) are merged by comparing the elements one by one.
