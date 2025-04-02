@@ -36,7 +36,7 @@ Make sure you have Rust installed:
 ```sh
 rustc --version
 ```
-Then, clone this repository and build the project:
+Then, clone this repository and build the project (you will need: https://git-scm.com/downloads/win):
 ```sh
 git clone https://github.com/JakubStachh/Rust-Projects.git
 ```
