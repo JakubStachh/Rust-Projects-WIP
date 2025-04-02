@@ -1,7 +1,7 @@
 # 📌 Reverse a Singly Linked List in Rust
 
 ## 🚀 Description
-This Rust program **reverses a singly linked list** using an iterative approach. 
+This Rust program reverses a singly linked list using an iterative approach. 
 The linked list is built using Option<Box<Node>>, where each node contains a value and a reference to the next node.
 
 🔍 How It Works
