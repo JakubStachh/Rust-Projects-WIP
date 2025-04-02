@@ -13,7 +13,7 @@
 - ✅ [Check if a Binary Tree is Balanced](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Check%20if%20a%20Binary%20Tree%20is%20Balanced)
 - ✅ [Count Characters in a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Count%20Characters%20in%20a%20String)
 - ✅ [Depth-First Search (DFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Depth-First%20Search%20(DFS))
-- ✅ Fibonacci Sequence
+- ✅ [Fibonacci Sequence](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Fibonacci%20Sequence)
 - ✅ Find All Permutations of a String
 - ✅ Find the Intersection of Two Arrays
 - ✅ Find the Longest Substring Without Repeating Characters
