@@ -12,7 +12,7 @@
 A brief description of what my Rust programs do.
 
 ## 🛠 Programs
-- ✅ Breadth-First Search (BFS)
+- ✅ [Breadth-First Search (BFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
 - ✅ Check if a Binary Tree is Balanced
 - ✅ Count Characters in a String
 - ✅ Depth-First Search (DFS)
