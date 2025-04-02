@@ -41,7 +41,7 @@
   rustc --version
   ```
   
-- Download the code
+- [Download](https://github.com/JakubStachh/Rust-Projects/archive/refs/heads/main.zip) the code
 - Unpack the zip file
 - Find the `Rust-Projects-main\Rust Projects`
 - Open the folder of the program You want to try out `Rust-Projects-main\Rust Projects\Anagram Check`
