@@ -1,4 +1,4 @@
-### 🏹 Binary Search in Rust
+## 🏹 Binary Search in Rust
 
 ## 📌 Description
 
