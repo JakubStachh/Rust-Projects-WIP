@@ -1,6 +1,5 @@
 # 🐕 Rust `"Project"`
 
-<br><br>
 ## 📚 Table of Contents
 - [Programs](#-programs)
 - [Installation](#-la-installation)
