@@ -4,6 +4,7 @@
 - [Programs](#-programs)
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
+<br><br>
 # 
 <br><br>
 # 🛠 Programs
@@ -27,6 +28,7 @@
 - ✅ [Reverse a Linked List](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Reverse%20a%20Linked%20List)
 
   [GET ME BACK](#-table-of-contents)
+<br><br>
 #
   <br><br>
 
