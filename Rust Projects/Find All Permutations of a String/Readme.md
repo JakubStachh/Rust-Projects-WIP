@@ -21,7 +21,7 @@ The algorithm swaps characters within the string, recursively generating permuta
 
   - The function uses **backtracking** by swapping characters back to their original positions after each recursive call to explore other permutations.
 
-### The main function demonstrates how to use `permute()` to generate permutations of the `string "abc"`.
+### The `main` function demonstrates how to use `permute()` to generate permutations of the `string "abc"`.
 
 ## 🎯 Example Output
 ```sh
