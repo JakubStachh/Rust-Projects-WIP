@@ -26,7 +26,7 @@
 - ✅ [Remove Duplicates from a Sorted Array](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Remove%20Duplicates%20from%20a%20Sorted%20Array)
 - ✅ [Reverse a Linked List](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Reverse%20a%20Linked%20List)
 
-  [GET BACK](#Table-of-Contents)
+  [GET BACK](#table-of-contents)
 
 ## 📦 La Installation
 
