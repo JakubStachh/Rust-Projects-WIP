@@ -16,7 +16,7 @@ The linked list is built usin `Option<Box<Node>>`, where each node contains a va
 
     - Uses three pointers:
 
-           - prev → Keeps track of the reversed list.
+      - prev → Keeps track of the reversed list.
 
 current → Iterates through the original list.
 
