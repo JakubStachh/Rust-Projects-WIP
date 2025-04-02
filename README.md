@@ -3,7 +3,7 @@
 
 ## 📚 Table of Contents
 - [Programs](#-programs)
-- [Installation](#la-installation)
+- [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
 
 ## 🛠 Programs
