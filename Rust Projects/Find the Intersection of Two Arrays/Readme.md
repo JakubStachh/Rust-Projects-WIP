@@ -2,7 +2,7 @@
 # 📌 Intersection of Two Arrays in Rust
 
 ## 🚀 Description
-This Rust program finds the intersection of two arrays (vectors). The intersection consists of the common elements that appear in both arrays. The result is a vector containing the unique elements from both arrays that exist in both.
+This Rust program finds the intersection of `two arrays (vectors)`. The intersection consists of the common elements that appear in both arrays. The result is a vector containing the unique elements from both arrays that exist in both.
 
 The algorithm uses HashSets to efficiently determine the intersection of the two input arrays. By converting both arrays into sets, the program ensures that each element is unique in the final result and performs the intersection operation efficiently.
 
