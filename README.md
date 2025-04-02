@@ -15,7 +15,7 @@
 - ✅ [Depth-First Search (DFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Depth-First%20Search%20(DFS))
 - ✅ [Fibonacci Sequence](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Fibonacci%20Sequence)
 - ✅ [Find All Permutations of a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20All%20Permutations%20of%20a%20String)
-- ✅ Find the Intersection of Two Arrays
+- ✅ [Find the Intersection of Two Arrays](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20the%20Intersection%20of%20Two%20Arrays)
 - ✅ Find the Longest Substring Without Repeating Characters
 - ✅ Find the Missing Number in an Array
 - ✅ [Implement a Binary Search](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Implement%20a%20Binary%20Search)
