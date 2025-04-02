@@ -18,7 +18,7 @@ The program efficiently computes the Fibonacci number by storing intermediate re
 
 - The function returns the Fibonacci number at position `n`.
 
-### The main function demonstrates how to use the `fibonacci()` function to calculate and display the Fibonacci number **for `n = 10`**.
+The main function demonstrates how to use the `fibonacci()` function to calculate and display the Fibonacci number **for `n = 10`**.
 
 ## 🎯 Example Output
 ```sh
