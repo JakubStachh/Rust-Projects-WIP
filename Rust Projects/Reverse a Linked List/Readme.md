@@ -18,11 +18,11 @@ The linked list is built usin `Option<Box<Node>>`, where each node contains a va
 
       - prev → Keeps track of the reversed list.
 
-current → Iterates through the original list.
+      - current → Iterates through the original list.
 
-next → Temporarily stores the next node.
+      - next → Temporarily stores the next node.
 
-Iterates through the list, reversing the next pointers.
+    - Iterates through the list, reversing the next pointers.
 
 Print Function (print_list):
 
