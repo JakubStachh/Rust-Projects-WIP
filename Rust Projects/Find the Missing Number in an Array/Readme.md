@@ -8,9 +8,13 @@ The function find_missing_number(arr: Vec<i32>, n: i32) -> i32:
 
 ### It calculates the expected sum of numbers from 1 to n using the formula:
 
+Inline: $expected\_sum = \frac{n \times (n + 1)}{2}$
+
+Display:
 $$
 expected\_sum = \frac{n \times (n + 1)}{2}
 $$
+
 ​
  
 Then, it computes the actual sum of the numbers in the array.
