@@ -58,6 +58,7 @@
   .\AnagramCheck.exe
   ```
   [GET ME BACK](#-table-of-contents)
+  #
   <br><br>
   <br><br>
   <br><br>
@@ -67,6 +68,7 @@
   <br><br>
   <br><br>
   <br><br>
+  
 # THANK YOU!
 ```sh
 1. And Voilà! You've done it! You've actually checked my code! 
