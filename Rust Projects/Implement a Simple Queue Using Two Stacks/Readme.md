@@ -3,32 +3,32 @@
 ## 🚀 Description
 This Rust program implements a **queue** using two **stacks**. The queue supports the basic operations:
 
-- <mark>push(x)</mark> — Pushes an element to the back of the queue.
+- `push(x)` — Pushes an element to the back of the queue.
 
-- <mark>pop()</mark> — Removes the element from the front of the queue.
+- `pop()` — Removes the element from the front of the queue.
 
-- <mark>peek()</mark> — Retrieves the front element without removing it.
+- `peek()` — Retrieves the front element without removing it.
 
-- <mark>empty()</mark> — Checks whether the queue is empty.
+- `empty()` — Checks whether the queue is empty.
 
-By using two stacks, the program simulates the behavior of a queue, where elements are pushed into one stack (<mark>stack_in</mark>) and popped from the other stack (<mark>stack_out</mark>). 
-When <mark>stack_out</mark> is empty, elements from <mark>stack_in</mark> are moved to <mark>stack_out</mark>, reversing their order.
+By using two stacks, the program simulates the behavior of a queue, where elements are pushed into one stack (`stack_in`) and popped from the other stack (`stack_out`). 
+When `stack_out` is empty, elements from `stack_in` are moved to `stack_out`, reversing their order.
 
 ## 🔍 How It Works
-### The <mark>MyQueue</mark> struct:
+### The `MyQueue` struct:
 
-- <mark>stack_in</mark>: A stack where elements are pushed.
+- `stack_in`: A stack where elements are pushed.
 
-- <mark>stack_out</mark>: A stack from which elements are popped (after transferring elements from <mark>stack_in</mark> if necessary).
+- `stack_out`: A stack from which elements are popped (after transferring elements from `stack_in` if necessary).
 
 ### Operations:
-- <mark>push(x: i32)</mark>: Adds an element to the <mark>stack_in</mark>.
+- `push(x: i32)`: Adds an element to the `stack_in`.
 
-- <mark>pop()</mark>: If <mark>stack_out</mark> is empty, it moves all elements from <mark>stack_in</mark> to <mark>stack_out</mark>. Then, it pops from <makr>stack_out</mark>.
+- `pop()`: If `stack_out` is empty, it moves all elements from `stack_in` to `stack_out`. Then, it pops from <makr>stack_out`.
 
-- <mark>peek()</mark>: If <mark>stack_out</mark> is empty, it returns the first element from <mark>stack_in</mark>. Otherwise, it returns the last element from <mark>stack_out</mark>.
+- `peek()`: If `stack_out` is empty, it returns the first element from `stack_in`. Otherwise, it returns the last element from `stack_out`.
 
-- <mark>empty()</mark>: Returns <mark>true</mark> if both stacks are empty, otherwise returns <mark>false</mark>.
+- <mark>empty()</mark>: Returns <mark>true</mark> if both stacks are empty, otherwise returns `false`.
 
 ## 🎯 Example Output
 ```sh
