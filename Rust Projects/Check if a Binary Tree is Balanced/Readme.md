@@ -7,7 +7,7 @@ This Rust program checks whether a binary tree is height-balanced. A binary tree
 
 ## 🔍 How It Works
 
-**The function is_balanced(root: Option<Box<TreeNode>>) -> bool:**
+**The function `is_balanced(root: Option<Box<TreeNode>>) -> bool`**:
 
 - Uses a helper function height(node: Option<&Box<TreeNode>>) -> i32 to calculate the height of the tree recursively.
 
