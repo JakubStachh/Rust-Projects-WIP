@@ -5,17 +5,17 @@
 This Rust program counts how many times each character appears in a given string using a **HashMap**.
 
 ## 🔍 How It Works
-**The function count_characters(s: &str) -> HashMap<char, i32>:**
+**The function `count_characters(s: &str) -> HashMap<char, i32>`**:
 
 - Iterates over each character in the string.
 
-- Uses a HashMap to store character frequencies.
+- Uses a **HashMap** to store character frequencies.
 
 - Increments the count for each character.
 
-**The main function:**
+**The `main` function:**
 
-- Defines a sample string ("hello world").
+- Defines a sample string (`"hello world"`).
 
 - Calls count_characters to process the string.
 
@@ -35,11 +35,11 @@ Character 'd' appears 1 times
 ```
 
 ## 📂 Explanation
-- HashMap Usage → The HashMap stores the count for each character.
+- **HashMap Usage** → The HashMap stores the count for each character.
 
-- Iterating Over the String → The string is iterated using .chars(), which returns each character as char.
+- Iterating Over the String → The string is iterated using `.chars()`, which returns each character as char.
 
-- Updating the HashMap → The .entry(ch).or_insert(0) method is used to either insert the character into the map with a count of 0 (if it doesn't exist) or update the existing count.
+- Updating the **HashMap** → The `.entry(ch).or_insert(0)` method is used to either insert the character into the map with a count of `0` (**if it doesn't exist**) or update the existing count.
 
-- Printing the Result → The program prints each character and its count.
+- Printing the **Result** → The program prints each character and its count.
 
