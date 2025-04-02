@@ -4,19 +4,19 @@
 This Rust program **reverses a singly linked list** using an iterative approach. 
 The linked list is built usin `Option<Box<Node>>`, where each node contains a value and a reference to the next node.
 
-🔍 How It Works
-Key Steps:
-Define the Node Struct:
+## 🔍 How It Works
+### Key Steps:
+1. **Define the Node Struct**:
 
-Each node has an i32 value and an Option<Box<Node>> for the next pointer.
+    - Each node has an `i32` value and an `Option<Box<Node>>` for the next pointer.
 
-Uses #[derive(Debug, Clone)] to enable cloning and debugging.
+    - Uses `#[derive(Debug, Clone)]` to enable cloning and debugging.
 
-Reverse Function (reverse_linked_list):
+2. **Reverse Function `(reverse_linked_list)`**:
 
-Uses three pointers:
+    - Uses three pointers:
 
-prev → Keeps track of the reversed list.
+           - prev → Keeps track of the reversed list.
 
 current → Iterates through the original list.
 
