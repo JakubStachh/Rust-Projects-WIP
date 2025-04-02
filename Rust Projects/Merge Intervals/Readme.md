@@ -1,6 +1,6 @@
 # 📌 Merge Intervals in Rust
 
-##🚀 Description
+## 🚀 Description
 This Rust program implements the **merge intervals algorithm**. It takes a collection of intervals and merges any overlapping intervals into a single interval. 
 The goal is to return a list of intervals where no two intervals overlap.
 
