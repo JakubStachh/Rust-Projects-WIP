@@ -2,8 +2,8 @@
 
 
 ## 📚 Table of Contents
-- [Programs](#-programs)
-- [Installation](#la-installation-🤌-🤌)
+- [Programs](##programs)
+- [Installation](##la-installation)
 - [Many Thanks](#thank-you)
 
 ## 🛠 Programs
