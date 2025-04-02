@@ -32,7 +32,7 @@ Fibonacci of 10: 55
 
 - Output: The n-th Fibonacci number.
 
-#### Logic:
+- #### Logic:
 
 - Initializes a vector fib with the base case values fib[0] = 0 and fib[1] = 1.
 
