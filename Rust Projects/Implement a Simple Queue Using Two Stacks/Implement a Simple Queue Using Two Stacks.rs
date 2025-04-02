@@ -44,4 +44,9 @@ fn main() {
     println!("Peek: {:?}", queue.peek());  // Output: Some(1)
     queue.pop();
     println!("Peek after pop: {:?}", queue.peek());  // Output: Some(2)
+
+    // Checking if the queue is empty
+    println!("Is the queue empty? {}", queue.empty());  // Output: false
+    queue.pop();
+    println!("Is the queue empty after pop? {}", queue.empty());  // Output: true
 }
