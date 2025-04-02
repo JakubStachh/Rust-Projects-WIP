@@ -1,11 +1,12 @@
 # 🐕 Rust `"Project"`
 
-
+<br><br>
 ## 📚 Table of Contents
 - [Programs](#-programs)
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
-
+  
+<br><br>
 ## 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
 - ✅ [Breadth-First Search (BFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Breadth-First%20Search%20(BFS))
