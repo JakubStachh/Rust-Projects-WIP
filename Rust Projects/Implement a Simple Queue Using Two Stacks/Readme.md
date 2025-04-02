@@ -28,7 +28,7 @@ When <mark>stack_out</mark> is empty, elements from <mark>stack_in</mark> are mo
 
 - <mark>peek()</mark>: If <mark>stack_out</mark> is empty, it returns the first element from <mark>stack_in</mark>. Otherwise, it returns the last element from <mark>stack_out</mark>.
 
-- <makr>empty()</mark>: Returns <mark>true</mark> if both stacks are empty, otherwise returns <mark>false</mark>.
+- <mark>empty()</mark>: Returns <mark>true</mark> if both stacks are empty, otherwise returns <mark>false</mark>.
 
 ## 🎯 Example Output
 ```sh
