@@ -1,19 +1,57 @@
-# 📌 Breadth-First Search (BFS) in Rust
+#📌 Breadth-First Search (BFS) in Rust
 
-## 🚀 Description
+##🚀 Description
+This Rust program implements Breadth-First Search (BFS) for traversing a graph. BFS is an algorithm used to explore the nodes and edges of a graph in breadth-first order, meaning it visits all the nodes at the present depth level before moving on to nodes at the next depth level.
 
-This Rust program demonstrates the Breadth-First Search (BFS) algorithm using a graph
-represented as an adjacency list with **HashMap<i32**, **Vec<i32>>**. 
-The BFS traversal is implemented using VecDeque for efficient queue operations.
+##🔍 How It Works
+###The function bfs(graph: &HashMap<i32, Vec<i32>>, start: i32):
 
-## 🔍 How It Works
+- Takes a graph represented as a HashMap<i32, Vec<i32>>, where each key is a node, and its associated value is a vector of neighboring nodes.
 
-The bfs function performs a BFS traversal from a given starting node.
+- The start parameter represents the node to start the BFS traversal from.
 
-A HashMap is used to track visited nodes.
+- Initializes a visited HashMap to keep track of which nodes have been visited.
 
-A VecDeque is used as a queue to process nodes in FIFO order.
+- Uses a VecDeque (a double-ended queue) to store nodes to be explored next.
 
-The graph is stored as an adjacency list, where each node maps to a list of its neighbors.
+- For each node, it prints the node's value and adds its unvisited neighbors to the queue.
 
-The traversal order is printed to the console.
+- The BFS continues until all reachable nodes are visited.
+
+- The main function builds a sample graph, and then calls the bfs() function to perform the traversal starting from a given node.
+
+## 🎯 Example Output
+
+```sh
+BFS Traversal:
+0
+1
+2
+3
+4
+5
+```
+
+## 📂 Explanation
+
+### bfs Function:
+- Implements the breadth-first search traversal.
+
+- Uses a queue (VecDeque) to maintain nodes to visit.
+
+- Marks nodes as visited and explores their unvisited neighbors.
+
+### main Function:
+- Creates a sample graph represented by a HashMap.
+
+- The graph is undirected, and each node is connected to its neighbors.
+
+```sh
+    0 - 1 - 3
+    |   |
+    2 - 4
+    |
+    5
+```
+
+- Calls the bfs() function starting from node 0.
