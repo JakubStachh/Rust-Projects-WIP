@@ -1,4 +1,4 @@
-# Anagram Checker in Rust
+# 📌 Anagram Checker in Rust
 
 ## 🚀 Description
 
