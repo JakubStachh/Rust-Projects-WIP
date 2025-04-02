@@ -45,3 +45,4 @@ $$
 - Defines an array arr containing the sequence with one missing number.
 
 - Calls the function find_missing_number to compute and print the missing number.
+#
