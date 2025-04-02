@@ -57,6 +57,7 @@
   ```sh
   .\AnagramCheck.exe
   ```
+  [GET ME BACK](#-table-of-contents)
   <br><br>
   <br><br>
   <br>....<br>
