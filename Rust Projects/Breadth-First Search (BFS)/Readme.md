@@ -1,9 +1,9 @@
-#📌 Breadth-First Search (BFS) in Rust
+# 📌 Breadth-First Search (BFS) in Rust
 
-##🚀 Description
+## 🚀 Description
 This Rust program implements Breadth-First Search (BFS) for traversing a graph. BFS is an algorithm used to explore the nodes and edges of a graph in breadth-first order, meaning it visits all the nodes at the present depth level before moving on to nodes at the next depth level.
 
-##🔍 How It Works
+## 🔍 How It Works
 ###The function bfs(graph: &HashMap<i32, Vec<i32>>, start: i32):
 
 - Takes a graph represented as a HashMap<i32, Vec<i32>>, where each key is a node, and its associated value is a vector of neighboring nodes.
