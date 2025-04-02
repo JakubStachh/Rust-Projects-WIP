@@ -49,17 +49,17 @@ Sorted Array: [1, 2, 5, 5, 6, 9]
     - The merged result is copied back to the original array using <mark>arr.copy_from_slice(&result)</mark>.
 
 ### <mark>merge</mark> Function:
-Merging Logic:
+- **Merging Logic**:
 
-The two sorted subarrays (left and right) are merged by comparing the elements one by one.
+    - The two sorted subarrays (<mark>left</mark> and <mark>right</mark>) are merged by comparing the elements one by one.
 
-The smaller element is added to the result array first.
+    - The smaller element is added to the result array first.
 
-If there are remaining elements in either subarray, they are copied to the result.
+    - If there are remaining elements in either subarray, they are copied to the result.
 
-main Function:
-A sample array [5, 2, 9, 1, 5, 6] is provided.
+### <mark>main</mark> Function:
+- A sample array <mark>[5, 2, 9, 1, 5, 6]</mark> is provided.
 
-The merge_sort function is called to sort the array.
+- The <mark>merge_sort</mark> function is called to sort the array.
 
-The sorted array is printed.
+- The sorted array is printed.
