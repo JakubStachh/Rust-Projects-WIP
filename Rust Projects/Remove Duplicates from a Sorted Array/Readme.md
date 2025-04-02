@@ -30,7 +30,7 @@ Array after duplicates removed: [1, 2, 3, 4]
 
 ## 📂 Explanation
 ### <mark>remove_duplicates</mark> Function:
-#### Uses **two pointers**:
+ - Uses **two pointers**:
 
    - <mark>unique_idx</mark> to track unique elements.
 
