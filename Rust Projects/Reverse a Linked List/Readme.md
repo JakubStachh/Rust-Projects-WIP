@@ -43,19 +43,19 @@ Reversed List:
 ```
 ## 📂 Explanation
 ### `reverse_linked_list` Function:
-Uses three pointers to reverse the list in O(n) time.
+- Uses three pointers to reverse the list in **O(n)** time.
 
-current iterates through the list.
+- `current` iterates through the list.
 
-prev keeps track of the reversed list.
+- `prev` keeps track of the reversed list.
 
-node.next.take() moves ownership of the next node.
+- `node.next.take()` moves ownership of the next node.
 
-print_list Function:
-Traverses the list and prints the values.
+### `print_list` Function:
+- Traverses the list and prints the values.
 
-main Function:
-Creates nodes and links them together.
+### `main` Function:
+- Creates nodes and links them together.
 
-Clones the list before reversing it to avoid ownership issues.
+- Clones the list before reversing it to avoid ownership issues.
 
