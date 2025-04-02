@@ -4,7 +4,6 @@
 ## 📚 Table of Contents
 - [Programs](#-programs)
 - [Installation](#la-installation)
-- [Usage](#usage)
 - [Many Thanks](#thank-you)
 
 ## 🛠 Programs
