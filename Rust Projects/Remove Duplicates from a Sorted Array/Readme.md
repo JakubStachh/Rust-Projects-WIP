@@ -3,11 +3,11 @@
 This Rust program removes duplicates from a sorted vector in-place and returns the new length of the modified vector. 
 The function ensures that **each unique element appears only once** while maintaining the original order.
 
-🔍 How It Works
-Key Steps:
-Handle Empty Vector:
+## 🔍 How It Works
+### Key Steps:
+#### 1. Handle Empty Vector:
 
-If the input vector is empty, return 0.
+   - If the input vector is empty, return <mark>0</mark>.
 
 Use Two Pointers:
 
