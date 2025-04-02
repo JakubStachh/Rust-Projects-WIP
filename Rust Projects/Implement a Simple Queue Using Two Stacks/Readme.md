@@ -28,7 +28,7 @@ When `stack_out` is empty, elements from `stack_in` are moved to `stack_out`, re
 
 - `peek()`: If `stack_out` is empty, it returns the first element from `stack_in`. Otherwise, it returns the last element from `stack_out`.
 
-- <mark>empty()</mark>: Returns <mark>true</mark> if both stacks are empty, otherwise returns `false`.
+- `empty()`: Returns `true` if both stacks are empty, otherwise returns `false`.
 
 ## 🎯 Example Output
 ```sh
@@ -39,24 +39,24 @@ Is the queue empty after pop? true
 ```
 
 ## 📂 Explanation
-### <mark>MyQueue</mark> Struct:
-- <mark>stack_in</mark>: A vector that serves as the "input" stack where new elements are pushed.
+### `MyQueue` Struct:
+- `stack_in`: A vector that serves as the "input" stack where new elements are pushed.
 
-- <mark>stack_out</mark>: A vector that serves as the "output" stack where elements are popped. If <mark>stack_out</mark> is empty, elements are moved from <mark>stack_in</mark> to <mark>stack_out</mark>.
+- `stack_out`: A vector that serves as the "output" stack where elements are popped. If `stack_out` is empty, elements are moved from `stack_in` to `stack_out`.
 
-### <mark>push</mark> Method:
-- Adds an element to <mark>stack_in</mark>, simulating the enqueue operation of a queue.
+### `push` Method:
+- Adds an element to `stack_in`, simulating the enqueue operation of a queue.
 
-### <mark>pop</mark> Method:
-- If <mark>stack_out</mark> is empty, it transfers all elements from <mark>stack_in</mark> to <mark>stack_out</mark>, which reverses their order, mimicking the behavior of a queue where the first inserted element is removed first.
+### `pop` Method:
+- If `stack_out` is empty, it transfers all elements from `stack_in` to `stack_out`, which reverses their order, mimicking the behavior of a queue where the first inserted element is removed first.
 
-- Pops from <mark>stack_out</mark>, returning the front of the queue.
+- Pops from `stack_out`, returning the front of the queue.
 
-### <mark>peek</mark> Method:
-- If <mark>stack_out</mark> is empty, it checks the front of <mark>stack_in</mark>.
+### `peek` Method:
+- If `stack_out` is empty, it checks the front of `stack_in`.
 
-- If <mark>stack_out</mark> has elements, it retrieves the front of the queue from <mark>stack_out</mark>.
+- If `stack_out` has elements, it retrieves the front of the queue from `stack_out`.
 
-### <mark>empty</mark> Method:
-- Returns <mark>true</mark> if both stacks are empty (indicating the queue is empty), otherwise returns </mark>false<mark>.
+### `empty` Method:
+- Returns `true` if both stacks are empty (indicating the queue is empty), otherwise returns `false`.
 #
