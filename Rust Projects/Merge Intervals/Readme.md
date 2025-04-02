@@ -24,9 +24,9 @@ The goal is to return a list of intervals where no two intervals overlap.
 ## Key Points:
 - **Sorting**: We sort the intervals to ensure that we can easily compare adjacent intervals.
 
-- **Cloning**: The <mark>clone()</mark> method is used to create a copy of intervals to avoid ownership issues while merging.
+- **Cloning**: The `clone()` method is used to create a copy of intervals to avoid ownership issues while merging.
 
-- <mark>max()</mark>: The <mark>max()</mark> function from <mark>std::cmp</mark> is used to determine the larger of two end times during merging.
+- `max()`: The `max()` function from `std::cmp` is used to determine the larger of two end times during merging.
 
 ## 🎯 Example Output
 ```sh
@@ -34,13 +34,13 @@ The goal is to return a list of intervals where no two intervals overlap.
 ```
 
 ## 📂 Explanation
-### <mark>Interval</mark> Struct:
-- The <mark>Interval</mark> struct holds two fields: <mark>start</mark> and <mark>end</mark>, which represent the start and end times of an interval.
+### `Interval` Struct:
+- The `Interval` struct holds two fields: `start` and `end`, which represent the start and end times of an interval.
 
-### <mark>merge_intervals</mark> Function:
+### `merge_intervals` Function:
 - #### Sort Intervals:
 
-   - First, the intervals are sorted based on their start times using <mark>sort_by</mark> and <mark>cmp</mark>.
+   - First, the intervals are sorted based on their start times using `sort_by` and `cmp`.
 
 - #### Iterate and Merge:
 
@@ -50,7 +50,7 @@ The goal is to return a list of intervals where no two intervals overlap.
 
 - #### Return: The function returns the list of merged intervals.
 
-## <mark>main</mark> Function:
-- A sample set of intervals is provided in <mark>main</mark>.
+## `main` Function:
+- A sample set of intervals is provided in `main`.
 
-- The function <mark>merge_intervals</mark> is called to merge the intervals, and the result is printed.
+- The function `merge_intervals` is called to merge the intervals, and the result is printed.
