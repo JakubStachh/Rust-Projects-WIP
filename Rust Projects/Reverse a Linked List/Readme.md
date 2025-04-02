@@ -34,16 +34,15 @@ The linked list is built usin `Option<Box<Node>>`, where each node contains a va
 
     - Prints the original and reversed lists.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 Original List:
 1 -> 2 -> 3 -> None
 Reversed List:
 3 -> 2 -> 1 -> None
-📂 Explanation
-reverse_linked_list Function:
+```
+## 📂 Explanation
+### reverse_linked_list Function:
 Uses three pointers to reverse the list in O(n) time.
 
 current iterates through the list.
