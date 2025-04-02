@@ -62,6 +62,8 @@
   ```sh
   .\AnagramCheck.exe
   ```
+#### Should work in VisualStudio if yours is already set up for Rust
+  
   [GET ME BACK](#-table-of-contents)
   #
   <br><br>
