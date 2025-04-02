@@ -41,8 +41,8 @@ Array after duplicates removed: [1, 2, 3, 4]
 - The function returns the new length <mark>(unique_idx + 1)</mark>.
 
 ### <mark>main</mark> Function:
-#### - Initializes a vector with duplicates.
+- Initializes a vector with duplicates.
 
-Calls remove_duplicates() to modify the vector in place.
+- Calls <mark>remove_duplicates()</mark> to modify the vector in place.
 
-Prints the unique elements using slicing (&nums[..new_len]).
+- Prints the unique elements using slicing (<mark>&nums[..new_len]</mark>).
