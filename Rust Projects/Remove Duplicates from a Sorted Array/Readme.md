@@ -7,11 +7,11 @@ The function ensures that **each unique element appears only once** while mainta
 ### Key Steps:
 #### 1. Handle Empty Vector:
 
-   - If the input vector is empty, return <mark>0</mark>.
+   - If the input vector is empty, return `0`.
 
 #### 2. Use Two Pointers:
 
-   - <mark>unique_idx</mark> keeps track of the position for unique elements.
+   - `unique_idx` keeps track of the position for unique elements.
 
    - The loop iterates through the array, comparing each element to the last unique element.
 
@@ -21,7 +21,7 @@ The function ensures that **each unique element appears only once** while mainta
 
 #### 4. Return the New Length:
 
-   - The function returns <mark>unique_idx + 1</mark>, which represents the number of unique elements.
+   - The function returns `unique_idx + 1`, which represents the number of unique elements.
 
 ## 🎯 Example Output
 ```sh
@@ -29,20 +29,20 @@ Array after duplicates removed: [1, 2, 3, 4]
 ```
 
 ## 📂 Explanation
-### <mark>remove_duplicates</mark> Function:
+### `remove_duplicates` Function:
  - Uses **two pointers**:
 
-   - <mark>unique_idx</mark> to track unique elements.
+   - `unique_idx` to track unique elements.
 
-   - <mark>i</mark> to iterate through the vector.
+   - `i` to iterate through the vector.
 
-- If the current element is different from the last unique element, it's placed at <mark>unique_idx + 1</mark>.
+- If the current element is different from the last unique element, it's placed at `unique_idx + 1`.
 
-- The function returns the new length <mark>(unique_idx + 1)</mark>.
+- The function returns the new length `(unique_idx + 1)`.
 
-### <mark>main</mark> Function:
+### `main` Function:
 - Initializes a vector with duplicates.
 
-- Calls <mark>remove_duplicates()</mark> to modify the vector in place.
+- Calls `remove_duplicates()` to modify the vector in place.
 
-- Prints the unique elements using slicing (<mark>&nums[..new_len]</mark>).
+- Prints the unique elements using slicing (`&nums[..new_len]`).
