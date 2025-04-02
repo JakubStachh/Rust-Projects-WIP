@@ -28,7 +28,7 @@ Visiting node with value: 3
 Is tree balanced? true
 ```
 ## 📂 Explanation
-### TreeNode Struct:
+### `TreeNode Struct`:
 
 - Represents a binary tree node with a value (val), and optional left and right children.
 
