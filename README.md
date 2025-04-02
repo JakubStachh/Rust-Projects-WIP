@@ -1,4 +1,4 @@
-# 🐕 Rust Project
+# 🐕 Rust `Project`
 
 
 ## 📚 Table of Contents
