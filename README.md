@@ -2,10 +2,10 @@
 
 
 ## 📚 Table of Contents
-- [Programs](#programs)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
+- [Programs](#-programs)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Examples](#-examples)
 
 ## 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
