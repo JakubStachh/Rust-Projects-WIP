@@ -1,7 +1,7 @@
 
-### 🏹 Binary Search in Rust
+# 🏹 Binary Search in Rust
 
-## 📌 Description
+# 📌 Description
 
 This project implements the Binary Search Algorithm in Rust. Binary Search is an efficient searching algorithm that finds the position of a target value in a sorted array by repeatedly dividing the search interval in half.
 
