@@ -28,7 +28,6 @@
 - ✅ [Reverse a Linked List](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Reverse%20a%20Linked%20List)
 
 ## 📦 Installation
-Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
 
 ### 𓀃 The Actual Installation
 
@@ -39,6 +38,7 @@ rustc --version
 #### You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
 
 #### But if you're using e.g. Windows Powershell you should:
+- Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
 - Download the code
 - Unpack the zip file
 - Find the `Rust-Projects-main\Rust Projects`
