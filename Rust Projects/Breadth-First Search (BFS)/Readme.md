@@ -6,7 +6,7 @@ This Rust program demonstrates the Breadth-First Search (BFS) algorithm using a 
 represented as an adjacency list with **HashMap<i32**, **Vec<i32>>**. 
 The BFS traversal is implemented using VecDeque for efficient queue operations.
 
-### 🔍 How It Works
+## 🔍 How It Works
 
 The bfs function performs a BFS traversal from a given starting node.
 
