@@ -5,15 +5,15 @@ A palindrome is a word, phrase, or sequence that reads the same forward and back
 
 ## 🔍 How It Works
 ### Key Steps:
-- #### Convert the String to a Character Vector (<mark>Vec<char></mark>):
+#### Convert the String to a Character Vector (<mark>Vec<char></mark>):
 
-The input string is converted into a vector of characters for easy index-based access.
+   - The input string is converted into a vector of characters for easy index-based access.
 
-Compare Characters:
+#### Compare Characters:
 
-The function iterates from the start of the string to the midpoint, comparing characters at symmetric positions.
+   - The function iterates from the start of the string to the midpoint, comparing characters at symmetric positions.
 
-Return Result:
+#### Return Result:
 
 If a mismatch is found, it returns false.
 
