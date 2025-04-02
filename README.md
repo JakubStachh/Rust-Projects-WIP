@@ -14,7 +14,7 @@
 - ✅ [Count Characters in a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Count%20Characters%20in%20a%20String)
 - ✅ [Depth-First Search (DFS)](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Depth-First%20Search%20(DFS))
 - ✅ [Fibonacci Sequence](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Fibonacci%20Sequence)
-- ✅ Find All Permutations of a String
+- ✅ [Find All Permutations of a String](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Find%20All%20Permutations%20of%20a%20String)
 - ✅ Find the Intersection of Two Arrays
 - ✅ Find the Longest Substring Without Repeating Characters
 - ✅ Find the Missing Number in an Array
