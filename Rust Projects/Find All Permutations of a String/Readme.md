@@ -42,7 +42,7 @@ This Rust program generates all permutations of a given string using backtrackin
 
     - Returns the final vector containing all the permutations.
 
-- ### permute_helper Function:
+ ### permute_helper Function:
 - Input: A mutable vector of characters, a start index, and a mutable result vector.
 
 - Output: Modifies the result vector to include permutations.
@@ -55,5 +55,5 @@ This Rust program generates all permutations of a given string using backtrackin
 
     - The algorithm backtracks by swapping characters back to their original positions.
 
-- ### main Function:
+ ### main Function:
 - The main function calls the permute() function with the string "abc" and prints the generated permutations.
