@@ -28,29 +28,29 @@ The goal is to return a list of intervals where no two intervals overlap.
 
 - <mark>max()</mark>: The <mark>max()</mark> function from <mark>std::cmp</mark> is used to determine the larger of two end times during merging.
 
-🎯 Example Output
-sh
-Copy
-Edit
+## 🎯 Example Output
+```sh
 [Interval { start: 1, end: 6 }, Interval { start: 8, end: 10 }, Interval { start: 15, end: 18 }]
-📂 Explanation
-Interval Struct:
-The Interval struct holds two fields: start and end, which represent the start and end times of an interval.
+```
 
-merge_intervals Function:
-Sort Intervals:
+## 📂 Explanation
+### <mark>Interval</mark> Struct:
+- The <mark>Interval</mark> struct holds two fields: <mark>start</mark> and <mark>end</mark>, which represent the start and end times of an interval.
 
-First, the intervals are sorted based on their start times using sort_by and cmp.
+### <mark>merge_intervals</mark> Function:
+- #### Sort Intervals:
 
-Iterate and Merge:
+   - First, the intervals are sorted based on their start times using <mark>sort_by</mark> and <mark>cmp</mark>.
 
-We iterate through the sorted intervals, checking for overlaps. If two intervals overlap, we merge them by updating the end time of the last merged interval.
+- #### Iterate and Merge:
 
-If there is no overlap, we simply add the current interval to the merged list.
+   - We iterate through the sorted intervals, checking for overlaps. If two intervals overlap, we merge them by updating the end time of the last merged interval.
 
-Return: The function returns the list of merged intervals.
+   - If there is no overlap, we simply add the current interval to the merged list.
 
-main Function:
-A sample set of intervals is provided in main.
+- #### Return: The function returns the list of merged intervals.
 
-The function merge_intervals is called to merge the intervals, and the result is printed.
+## <mark>main</mark> Function:
+- A sample set of intervals is provided in <mark>main</mark>.
+
+- The function <mark>merge_intervals</mark> is called to merge the intervals, and the result is printed.
