@@ -36,6 +36,11 @@
 #### But if you're using e.g. Windows Powershell you should:
 
 - Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
+
+  ```sh
+  rustc --version
+  ```
+  
 - Download the code
 - Unpack the zip file
 - Find the `Rust-Projects-main\Rust Projects`
