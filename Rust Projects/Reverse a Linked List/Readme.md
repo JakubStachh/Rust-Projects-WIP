@@ -35,7 +35,7 @@ The linked list is built usin `Option<Box<Node>>`, where each node contains a va
     - Prints the original and reversed lists.
 
 ## 🎯 Example Output
-```rt
+```rs
 Original List:
 1 -> 2 -> 3 -> None
 Reversed List:
