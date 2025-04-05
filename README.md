@@ -5,7 +5,7 @@
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
 <br><br>
-# 
+---
 <br><br>
 # 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/Rust-Projects/tree/main/Rust%20Projects/Anagram%20Check)
