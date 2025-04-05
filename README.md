@@ -62,7 +62,6 @@
   ```sh
   .\AnagramCheck.exe
   ```
-#### Should work in `Visual Studio Code` if yours *had been already set up for Rust*
   
   [GET ME BACK](#-table-of-contents)
   #
